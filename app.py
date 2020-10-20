@@ -32,7 +32,7 @@ def add_numbers_post():
   	      		total *= int(str_num)
   	      	return render_template('add_numbers.html', result=str(total))
   	      except ValueError:
-  	      	return "Whoh woah whoh, How about we just stick with 2 numbers for now!"
+  	      	return "Whoh woah whoh, lets sick to numbers for now!"
 
 
 @app.route('/shopping_list', methods=['GET','POST'])
